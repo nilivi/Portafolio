@@ -48,7 +48,7 @@
         // -----------------------------
         function textRotate() {
             $(".text-rotate").typed({
-                strings: ["John Doe", "a UX|UI Designer", "a full time Freelancer"],
+                strings: ["Ninoska Vivas Rivas", "UX Designer", "Ingeniera de Sistemas"],
                 // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
                 stringsElement: null,
                 // typing speed
