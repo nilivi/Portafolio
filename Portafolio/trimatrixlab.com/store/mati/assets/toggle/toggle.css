@@ -1,0 +1,13 @@
+.popout{position:fixed;width:188px;height:140px;background-color:#ffffff;color:#212121;top:100px;right:-188px;transition:500ms transform ease-in-out;z-index:5000;}
+.toggle{display:table;position:absolute;top:0;left:-40px;width:40px;font-size:20px;height:40px;background-color:#E91E63;color:white;cursor:pointer;border-radius: 3px;}
+.toggle i{display:table-cell;vertical-align:middle;}
+.colors{padding:15px;}
+.colors p{margin:0;alignment:center;}
+.colors ul li{height:30px;width:30px;margin:4px;display:inline-block;cursor:pointer;border-radius:3px;transition:.4s;}
+.colors ul li:hover{transform:scale(1.2);}
+.colors .color1{background:#f44336;}
+.colors .color2{background:#e91e63;}
+.colors .color3{background:#9c27b0;}
+.colors .color4{background:#4caf50;}
+.colors .color5{background:#ffc107;}
+.colors .color6{background:#ff5722;}
