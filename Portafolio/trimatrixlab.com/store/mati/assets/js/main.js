@@ -191,12 +191,12 @@
                 data: post_data
             })
                 .done(function () {
-                    $("#message span").html("SENT SUCCESSFULLY");
+                    $("#message span").html("ENVIADO SATISFACTORIAMENTE");
                     $(form)[0].reset();
                     $("#submit").removeAttr('disabled', 'disabled');
                 })
                 .fail(function () {
-                    $("#message span").html("SOMETHING WENT WRONG! TRY AGAIN");
+                    $("#message span").html("¡ALGO SALIÓ MAL! INTÉNTALO DE NUEVO");
                     $(form)[0].reset();
                     $("#submit").removeAttr('disabled', 'disabled');
                 });
